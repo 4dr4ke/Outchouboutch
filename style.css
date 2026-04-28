@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "JetBrains Mono Medium", serif;
+    font-family: "Geist", serif;
     background-color: rgb(225, 225, 225);
     font-size: large;
 }
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .subtext {
-    font-family: "JetBrains Mono Medium", serif;
+    font-family: "Geist", serif;
     color: rgb(100, 100, 100);
 }
 
