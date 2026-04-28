@@ -7,7 +7,7 @@ let verbLastModified = null;
 const verbes = [
     { verbe: "Être : losre", racine: "los" },
     { verbe: "Avoir : vre", racine: "vr" },
-    { verbe: "Parler : diole", racine: "dio" },
+    { verbe: "Parler : diole", racine: "di" },
     { verbe: "Permettre : permet", racine: "perme" },
     { verbe: "Aimer : liobe", racine: "liob" },
     { verbe: "Pouvoir : prose", racine: "pros" },
