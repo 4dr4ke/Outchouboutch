@@ -3,25 +3,7 @@ const vocBoxes = document.getElementsByClassName("voc-box");
 const vocSearchBar = document.getElementById("voc-search-bar");
 const summaryButtons = document.getElementsByClassName("summary-button");
 const summaryCategories = document.getElementsByClassName("summary-categories");
-const dict = {};
 let vocLastModified = null;
-
-for (const vocBox of vocBoxes) {
-    const vocs = [...vocBox.getElementsByClassName("voc")];
-
-    if (vocs.length < 2) continue;
-
-    const key = format(vocs[vocs.length - 1].textContent).trim();
-
-    for (let i = 0; i < vocs.length - 1; i++) {
-        const value = format(vocs[i].textContent).trim();
-        dict[key] = value;
-    }
-}
-
-console.log(dict)
-
-localStorage.setItem("words", JSON.stringify(dict));
 
 vocSearchBar.addEventListener("keypress", (e) => {
     if (e.key !== "Enter") return;
@@ -99,3 +81,18 @@ for (const button of summaryButtons) {
 function format(text) {
     return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
+
+// for (const vocBox of vocBoxes) {
+//     const vocs = [...vocBox.getElementsByClassName("voc")];
+
+//     if (vocs.length < 2) continue;
+
+//     const key = format(vocs[vocs.length - 1].textContent).trim();
+
+//     for (let i = 0; i < vocs.length - 1; i++) {
+//         const value = format(vocs[i].textContent).trim();
+//         dict[key] = value;
+//     }
+// }
+
+// console.log(dict)
