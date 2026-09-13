@@ -46,8 +46,8 @@ let vocabulary = [
             {word: "Cours", translation: "Curce"},
             {word: "Caca", translation: "Cacoss"},
             {word: "Civilisation", translation: "Siviceox"},
+            
             {word: "De", translation: "De"},
-
             {word: "Des", translation: "Dev"},
             {word: "Dans", translation: "Deit"},
             {word: "Derien", translation: "Pradu"},
@@ -56,9 +56,10 @@ let vocabulary = [
             {word: "Derrière", translation: "Redere"},
             {word: "Désolé", translation: "Deçoluz"},
             {word: "Difficile", translation: "Dicepe"},
-            {word: "Facile", translation: "Cepe"},
+            {word: "Facile/simple", translation: "Cepe", multipleMeanings: true},
             {word: "Démence", translation: "Mastrolembo"},
             {word: "Donc", translation: "Dum"},
+            {word: "Doux", translation: "Niveua"}
             {word: "Déjà", translation: "Decaf"},
             {word: "Dépression", translation: "Demus"},
 
@@ -187,7 +188,7 @@ let vocabulary = [
             {word: "Soif", translation: "çaf"},
             {word: "Suivant", translation: "Cecere"},
             {word: "Sur", translation: "çu"},
-            {word: "Simple", translation: "Cip"},
+            {word: "Simple/facile", translation: "Cip", multipleMeanings: true},
             {word: "Spécial", translation: "Palia"},
             {word: "Spécialité", translation: "Paliar"},
             {word: "Spécifique", translation: "Paliac"},
