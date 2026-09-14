@@ -131,6 +131,7 @@ let vocabulary = [
             {word: "Nuit", translation: "Nuta"},
 
             {word: "Ou", translation: "O"},
+            {word: "Odeur", translation: "Avaec"},
             {word: "Où", translation: "Ubi"},
             {word: "Nulle part", translation: "Nubi"},
             {word: "Partout", translation: "Tutubi"},
