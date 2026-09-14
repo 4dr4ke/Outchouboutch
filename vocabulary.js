@@ -59,7 +59,7 @@ let vocabulary = [
             {word: "Facile/simple", translation: "Cepe", multipleMeanings: true},
             {word: "Démence", translation: "Mastrolembo"},
             {word: "Donc", translation: "Dum"},
-            {word: "Doux", translation: "Niveua"}
+            {word: "Doux", translation: "Niveua"},
             {word: "Déjà", translation: "Decaf"},
             {word: "Dépression", translation: "Demus"},
 
