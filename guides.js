@@ -90,27 +90,19 @@ const guides = {
     },
 
     gerund: {
-        name: "Le gérondif / participe présent",
+        name: "Le gérondif / être en train de...",
         desc: "Vous dites plutôt gérondif ou participe présent ?",
         content: [
             {
                 text:
-                    "Pour utiliser le participe présent, il faut mettre <i><mark><strong>sto</mark></strong></i> avant le verbe."
+                    "Pour dire que vous êtes en train d'effectuer une action ou utiliser le gérondif, placez le mot <i><mark><strong>sto</mark></strong></i> avant le verbe."
             },
             {
-                example: "Lo sto mando <i>(je suis en train de manger)</i>"
-            },
-            {
-                text:
-                    "Mais cela peut également être utilisé pour parler d'une action spécifique, effectuée pendant qu'une autre a lieu."
-            },
-            {
-                example: "Oguö sto fatio <i>(c'est fatiguant / cela me fatigue)</i>"
-            },
-            {
-                text:
-                    "Dans ce cas, attention à bien accorder le verbe à la première personne du singulier pour indiquer que cela VOUS fatigue."
+                example: "Lo sto dio <i>(Je suis en train de parler)</i>\nSil sto bruil! <i>(Il est en train de dessiner)</i>"
             }
+            {
+                text: "Note : le gérondif marche comme en Anglais."
+            },
         ]
     },
 
