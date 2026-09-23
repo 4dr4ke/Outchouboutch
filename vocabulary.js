@@ -66,6 +66,7 @@ let vocabulary = [
             {word: "Évident", translation: "Eviden"},
             {word: "Exception", translation: "Ecexon"},
             {word: "En", translation: "Ne"},
+            {word: "Eau", translation: "Loc"},
             {word: "Effet", translation: "Efeto"},
             {word: "Effectivement", translation: "Efetozovam"},
             {word: "Et", translation: "To"},
@@ -107,7 +108,7 @@ let vocabulary = [
 
             {word: "Le/la", translation: "Te", multipleMeanings: true},
             {word: "Là", translation: "Taskio"},
-            {word: "Lac", translation: "Molonoc"},
+            {word: "Lac", translation: "Monoloc"},
             {word: "Lui/Elle", translation: "Luil", multipleMeanings: true},
             {word: "Lunette", translation: "Vüvü"},
 
@@ -221,6 +222,7 @@ let vocabulary = [
             {word: "Vidéo", translation: "Video"},
             {word: "Vous", translation: "Lut"},
             {word: "Votre", translation: "Lutes"},
+            {word: "Vaste/grand", translation: "Mono", multipleMeanings: true},
             {word: "Vague", translation: "Nuaw"},
 
             {word: "Yeux", translation: "Ai"},
