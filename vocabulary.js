@@ -28,7 +28,7 @@ let vocabulary = [
             {word: "Beaucoup", translation: "Biocopo"},
             {word: "Beau", translation: "Belu"},
 
-            {word: "Cela", translation: "Oguö"},
+            {word: "Cela", translation: "Ogute"},
             {word: "Comment", translation: "Comuo"},
             {word: "Champs", translation: "Api"},
             {word: "Commune", translation: "Colie"},
@@ -105,7 +105,7 @@ let vocabulary = [
             {word: "Jamais", translation: "Luov"},
             {word: "Juste", translation: "Lux"},
 
-            {word: "Le/la", translation: "Ö", multipleMeanings: true},
+            {word: "Le/la", translation: "Te", multipleMeanings: true},
             {word: "Là", translation: "Taskio"},
             {word: "Lac", translation: "Molonoc"},
             {word: "Lui/Elle", translation: "Luil", multipleMeanings: true},
@@ -122,6 +122,8 @@ let vocabulary = [
             {word: "Maman", translation: "Mam"},
             {word: "Moins", translation: "Mob"},
             {word: "Mais", translation: "Mag"},
+            {word: "Maintenant/Présent", translation: "Ogutope", multipleMeanings: true},
+            {word: "Maintenant", translation: "Taskiotope"},
 
             {word: "Non", translation: "No"},
             {word: "Noyau", translation: "Nucalo"},
