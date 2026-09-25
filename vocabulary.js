@@ -34,7 +34,7 @@ let vocabulary = [
             {word: "Commune", translation: "Colie"},
             {word: "Chance", translation: "Cadur"},
             {word: "Crème", translation: "Creme"},
-            {word: "Coiffeur", translation: "Qemess"},
+            {word: "Coiffeur", translation: "Chemess"},
             {word: "Clébard", translation: "Nash"},
             {word: "Cheville", translation: "Dölösh"},
             {word: "Chien", translation: "Aidi"},
@@ -64,6 +64,7 @@ let vocabulary = [
             {word: "Dépression", translation: "Demus"},
 
             {word: "Évident", translation: "Eviden"},
+            {word: "État", translation: "Aciceneka"},
             {word: "Exception", translation: "Ecexon"},
             {word: "En", translation: "Ne"},
             {word: "Eau", translation: "Loc"},
@@ -170,11 +171,11 @@ let vocabulary = [
             {word: "Papa", translation: "Papa"},
             {word: "Pression", translation: "mus"},
             {word: "Paquerette", translation: "Bêti"},
-            {word: "Petit", translation: "Qipit"},
+            {word: "Petit", translation: "Chipit"},
             {word: "Pas", translation: "Noi"},
 
-            {word: "Quoi/Que", translation: "Qe", multipleMeanings: true},
-            {word: "Qui", translation: "Qi"},
+            {word: "Quoi/Que", translation: "Che", multipleMeanings: true},
+            {word: "Qui", translation: "Chi"},
             {word: "Quand", translation: "Cu"},
 
             {word: "Rien", translation: "Rem"},
