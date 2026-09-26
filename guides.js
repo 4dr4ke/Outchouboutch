@@ -99,7 +99,7 @@ const guides = {
             },
             {
                 example: "Lo sto dio <i>(Je suis en train de parler)</i>\nSil sto bruil! <i>(Il est en train de dessiner)</i>"
-            }
+            },
             {
                 text: "Note : le gérondif marche comme en Anglais."
             },
