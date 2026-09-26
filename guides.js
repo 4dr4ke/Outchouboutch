@@ -3,21 +3,20 @@ const guides = {
         name: "Prononciations",
         desc: "Dans ce guide, les différentes prononciations exclusives de la langue sont expliquées !",
         content: [
-            {
-                example:
-                    "Quand la lettre C est suivie d'un E ou d'un I, cela se prononce [s]<br>" +
-                    "Quand la lettre G est suivie d'un E ou d'un I, cela se prononce [ʒ]<br>" +
-                    "Quand la lettre Ç est suivie d'une voyelle, cela se prononce [s]<br>" +
-                    "La lettre Z se prononce [θ]<br>" +
-                    "Quand la lettre C est suivie d'un H, cela se prononce [k]<br>" +
-                    "La lettre Ê se prononce [ɑ̃]<br>" +
-                    "La lettre O se prononce [ɔ]<br>" +
-                    "La lettre U se prononce [u]<br>" +
-                    "La lettre E se prononce [e]<br>" +
-                    "La lettre Ö se prononce [o]<br>" +
-                    "La lettre Ü se prononce [y]<br>" +
-                    "La lettre Ë se prononce [ø]"
-            }
+            {text: "Digraphes :<br>Quand la lettre C est suivie d'un H, cela se prononce [k]"},
+            {example: "<strong>Che</strong> sto fatu? (que fais-tu ?)"},
+            {text: "Quand la lettre C est suivie d'un E ou d'un I, cela se prononce [s]"},
+            {example: "Cecere! (au suivant !)"},
+            {text: "Quand la lettre Ç est suivie d'une autre voyelle, cela se prononce de la même manière."},
+            {text: "Quand la lettre G est suivie d'un E ou d'un I, cela se prononce [ʒ]"},
+            {example: "Su gentu (tu es gentil)"},
+            {text: "Monographes :"},
+            {text: "La lettre X se prononce [ʁ]"},
+            {example: "On xao (une rose)"},
+            {text: "La lettre Z se prononce [θ]"},
+            {text: "La lettre K se prononce [ks]"},
+            {text: "Lorsqu'une voyelle est écrite avec un trémat, prononcez la de manière ouverte. Sinon, fermée.}
+            {example: "Ogu, <strong>prosöm voatob</strong> cal <strong>oss pörtanuss</strong> (ici, nous pouvons voir quelque chose d'intéressant)"}
         ]
     },
 
