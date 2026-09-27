@@ -174,7 +174,7 @@ let vocabulary = [
             {word: "Petit", translation: "Chipit"},
             {word: "Pas", translation: "Noi"},
 
-            {word: "Quoi/Que", translation: "Che", multipleMeanings: true},
+            {word: "Quoi/Que/Quel", translation: "Che", multipleMeanings: true},
             {word: "Qui", translation: "Chi"},
             {word: "Quand", translation: "Cu"},
 
