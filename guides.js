@@ -16,7 +16,7 @@ const guides = {
             {text: "La lettre Z se prononce [θ]"},
             {text: "La lettre K se prononce [ks]"},
             {text: "Lorsqu'une voyelle est écrite avec un trémat, prononcez la de manière ouverte. Sinon, fermée."},
-            {example: "Ogu, <strong>prosöm voatob</strong> cal <strong>oss pörtanuss</strong> (ici, nous pouvons voir quelque chose d'intéressant)"}
+            {example: "<strong>Proso</strong> fatce te (je peux faire ça)"}
         ]
     },
 
