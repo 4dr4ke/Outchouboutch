@@ -204,7 +204,7 @@ let vocabulary = [
 
             {word: "Triste", translation: "Trost"},
             {word: "Toi", translation: "Lü"},
-            {word: "Ton/le tien", translation: "Lües", multipleMeanings: true},
+            {word: "Ton/le tien", translation: "Lues", multipleMeanings: true},
             {word: "Toujours", translation: "Truss"},
             {word: "Tard", translation: "Tax"},
             {word: "Tôt", translation: "Tox"},
