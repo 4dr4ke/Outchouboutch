@@ -15,7 +15,7 @@ const verbs = [
     { verb: "mande", root: "mand", translation: "manger" },
     { verb: "sevre", root: "sev", translation: "savoir" },
     { verb: "qere", root: "qer", translation: "chercher" },
-    { verb: "pesöb", root: "pêç", translation: "penser" },
+    { verb: "pesöb", root: "pes", translation: "penser" },
     { verb: "velör", root: "vel", translation: "vouloir" },
     { verb: "xeflör", root: "xefl", translation: "réfléchir" },
     { verb: "regöb", root: "reg", translation: "regarder" },
