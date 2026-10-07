@@ -81,21 +81,21 @@ const guides = {
                     "Pour utiliser le superlatif, il faut mettre le suffixe <mark><strong><i>en</mark></strong></i> sur un adjectif."
             },
             {
-                example: "Ö trosten <i>(le plus triste)</i>"
+                example: "Te trosten <i>(le plus triste)</i>"
             },
             {
                 text:
                     "Il est aussi possible d'utiliser la forme suivante, qui donne le même résultat :"
             },
             {
-                example: "Ö lüss trost"
+                example: "Te lüss trost"
             },
             {
                 text:
                     "Vous pouvez également faire un mélange des deux formes afin d'exagérer ou de mettre davantage en valeur :"
             },
             {
-                example: "Ö lüss trosten"
+                example: "Te lüss trosten"
             }
         ]
     },
@@ -125,7 +125,7 @@ const guides = {
                 text: "Lorsqu'un mot se termine par la sonorité [s], il est obligatoire de l'écrire avec un double S !"
             },
             {
-                example: "Oguö sil portanu<mark><strong>ss</strong></mark> <i>(c'est important)</i>"
+                example: "Ogute sil portanu<mark><strong>ss</strong></mark> <i>(c'est important)</i>"
             },
             {
                 text: "Sinon, suivez la règle par défaut : si le son [s] est suivi d'un E ou d'un I, écrivez le avec la lettre C<br>" +
