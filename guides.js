@@ -20,6 +20,18 @@ const guides = {
         ]
     },
 
+    plural: {
+        name: "Pluriel",
+        desc: "Apprenez à utiliser le pluriel :D",
+        content: [
+            {text: "Le pluriel est très simple ! Il est marqué par un <mark><strong><i>i</mark></strong></i> à la fin du mot que l'on veut mettre au pluriel"},
+            {example: "Tuti te tob <i>(tous les jours)</i><br>Tei lavania mastropietro <i>(des personnes folles/des gens fous)</i>"},
+            {text: "Vous remarquez cependant que l'on ne le marque qu'une seule fois ! Et oui, une fois qu'il est mis, plus besoin de s'en soucier.<br>Cependant, attention à une chose !<br> Si vous utilisez un verbe dont le sujet est au pluriel, même si ce dernier a déjà été marqué, vous devez conjugué le verbe au pluriel."},
+            {example: "Ogutei nash ses belu <i>(ces clébards sont beaux)</i>"},
+            {text: "Dans cet exemple, notez que le pluriel a déjà été marqué sur 'ogute', mais qu'on a tout de même conjugué le verbe 'sore' (être) au pluriel"}
+        ]
+    },
+
     futur: {
         name: "Parler au futur",
         desc: "Maîtrisez le futur en quelques secondes de lectures !",
