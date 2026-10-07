@@ -31,6 +31,7 @@ const verbs = [
     { verb: "vener", root: "ven", translation: "venir" },
     { verb: "lapre", root: "lap", translation: "laisser" },
     { verb: "aidöb", root: "aid", translation: "aider" },
+    { verb: "usore", root: "us", translation: "utiliser" },
     { verb: "eplasöb", root: "eplas", translation: "expliquer" },
     { verb: "repöb", root: "rep", translation: "répondre" },
     { verb: "deshöb", root: "desh", translation: "descendre" },
