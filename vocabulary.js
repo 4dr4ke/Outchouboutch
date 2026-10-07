@@ -27,6 +27,7 @@ let vocabulary = [
             {word: "Bien", translation: "Bone"},
             {word: "Beaucoup", translation: "Biocopo"},
             {word: "Beau", translation: "Belu"},
+            {word: "Bizarre", translation: "Sidu"},
 
             {word: "Cela", translation: "Ogute"},
             {word: "Comment", translation: "Comuo"},
@@ -64,6 +65,7 @@ let vocabulary = [
             {word: "Dépression", translation: "Demus"},
 
             {word: "Évident", translation: "Eviden"},
+            {word: "Étrange", translation: "udiss"},
             {word: "État", translation: "Aciceneka"},
             {word: "Exception", translation: "Ecexon"},
             {word: "En", translation: "Ne"},
@@ -73,7 +75,8 @@ let vocabulary = [
             {word: "Et", translation: "To"},
             {word: "En train de", translation: "Sto"},
             {word: "Étrange", translation: "Etran"},
-            {word: "Excréments", translation: "Efcaka"},
+            {word: "Excréments", translation: "Efcaca"},
+            {word: "Europe", translation: "Erurop"},
 
             {word: "Fois", translation: "Fo"},
             {word: "Fou", translation: "Mastropietro"},
@@ -148,6 +151,7 @@ let vocabulary = [
             {word: "Outchouboutch", translation: "Outchivuotuxu"},
 
             {word: "Pourquoi", translation: "Portess"},
+            {word: "Principe", translation: "Prinipe"},
             {word: "Parfait", translation: "Perfetum"},
             {word: "Partie", translation: "Part"},
             {word: "Pour", translation: "Fur"},
@@ -180,6 +184,7 @@ let vocabulary = [
 
             {word: "Rien", translation: "Rem"},
             {word: "Rhum", translation: "Rum"},
+            {word: "Révolution", translation: "Revolutok"},
 
             {word: "Son", translation: "Luiles"},
             {word: "S'il vous plait", translation: "Vut"},
