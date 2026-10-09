@@ -206,7 +206,7 @@ let vocabulary = [
             {word: "Spécificité", translation: "Paliacar"},
             {word: "Secret", translation: "Cecevre"},
             {word: "Sans", translation: "Ateno"},
-            {word: "Si", translation: "Iap"}
+            {word: "Si", translation: "Iap"},
 
             {word: "Triste", translation: "Trost"},
             {word: "Toi", translation: "Lü"},
