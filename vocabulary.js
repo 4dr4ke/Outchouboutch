@@ -104,15 +104,15 @@ let vocabulary = [
 
             {word: "Il y a", translation: "Exo"},
             {word: "Ici", translation: "Ogu"},
-            {word: "Important", translation: "Portanuss"},
+            {word: "Important", translation: "Pörtanuss"},
 
             {word: "Jour", translation: "Tob"},
             {word: "Jamais", translation: "Luov"},
             {word: "Juste", translation: "Lux"},
 
-            {word: "Le/la", translation: "Te", multipleMeanings: true},
+            {word: "Le/la", translation: "o", multipleMeanings: true},
             {word: "Là", translation: "Taskio"},
-            {word: "Lac", translation: "Monoloc"},
+            {word: "Lac", translation: "Monolöc"},
             {word: "Lui/Elle", translation: "Luil", multipleMeanings: true},
             {word: "Lunette", translation: "Vüvü"},
 
@@ -125,19 +125,19 @@ let vocabulary = [
             {word: "Minute", translation: "Minut"},
             {word: "Musique", translation: "Musuci"},
             {word: "Maman", translation: "Mam"},
-            {word: "Moins", translation: "Mob"},
+            {word: "Moins", translation: "Möb"},
             {word: "Mais", translation: "Mag"},
             {word: "Maintenant/Présent", translation: "Ogutope", multipleMeanings: true},
             {word: "Maintenant", translation: "Taskiotope"},
 
             {word: "Non", translation: "No"},
             {word: "Noyau", translation: "Nucalo"},
-            {word: "Nous", translation: "Lom"},
-            {word: "Notre", translation: "Lomes"},
+            {word: "Nous", translation: "Löm"},
+            {word: "Notre", translation: "Lömes"},
             {word: "Nouveau", translation: "Nuvu"},
             {word: "Nuit", translation: "Nuta"},
 
-            {word: "Ou", translation: "O"},
+            {word: "Ou", translation: "ö"},
             {word: "Odeur", translation: "Avaec"},
             {word: "Où", translation: "Ubi"},
             {word: "Nulle part", translation: "Nubi"},
@@ -145,12 +145,12 @@ let vocabulary = [
             {word: "Quelque part", translation: "Cal ubi"},
             {word: "Quelque", translation: "Cal"},
 
-            {word: "Oxygène", translation: "Oxolob"},
+            {word: "Oxygène", translation: "Oxolöb"},
             {word: "Oui", translation: "Io"},
             {word: "Oreille", translation: "Oracun"},
-            {word: "Outchouboutch", translation: "Outchivuotuxu"},
+            {word: "Outchouboutch", translation: "Outshubutsh"},
 
-            {word: "Pourquoi", translation: "Portess"},
+            {word: "Pourquoi", translation: "Pörtess"},
             {word: "Principe", translation: "Prinipe"},
             {word: "Parfait", translation: "Perfetum"},
             {word: "Partie", translation: "Part"},
@@ -184,12 +184,12 @@ let vocabulary = [
 
             {word: "Rien", translation: "Rem"},
             {word: "Rhum", translation: "Rum"},
-            {word: "Révolution", translation: "Revolutok"},
+            {word: "Révolution", translation: "Revolutök"},
 
             {word: "Son", translation: "Luiles"},
             {word: "S'il vous plait", translation: "Vut"},
             {word: "Soir", translation: "Tüb"},
-            {word: "Sinon", translation: "Ceno"},
+            {word: "Sinon", translation: "Iap no"},
             {word: "Seul", translation: "Soluz"},
             {word: "Seulement", translation: "Soluzovam"},
             {word: "Sac", translation: "çaca"},
@@ -206,6 +206,7 @@ let vocabulary = [
             {word: "Spécificité", translation: "Paliacar"},
             {word: "Secret", translation: "Cecevre"},
             {word: "Sans", translation: "Ateno"},
+            {word: "Si", translation: "Iap"}
 
             {word: "Triste", translation: "Trost"},
             {word: "Toi", translation: "Lü"},
@@ -229,9 +230,9 @@ let vocabulary = [
             {word: "Vous", translation: "Lut"},
             {word: "Votre", translation: "Lutes"},
             {word: "Vaste/grand", translation: "Mono", multipleMeanings: true},
-            {word: "Vague", translation: "Nuaw"},
+            {word: "Vague", translation: "Nua"},
 
-            {word: "Yeux", translation: "Ai"},
+            {word: "Oeil", translation: "Aga"},
 
         ],
     },
@@ -274,18 +275,6 @@ let vocabulary = [
             {word: "Huit", translation: "Ox"},
             {word: "Neuf", translation: "Nov"},
             {word: "Dix", translation: "Di"},
-            {word: "Vingt", translation: "Ven"},
-            {word: "Trente", translation: "Tren"},
-            {word: "Quarante", translation: "Quon"},
-            {word: "Cinquante", translation: "Zen"},
-            {word: "Soixante", translation: "Cen"},
-            {word: "Soixante-dix", translation: "Ceten"},
-            {word: "Quatre-vingt", translation: "Oxen"},
-            {word: "Quatre-vingt-dix", translation: "Noven"},
-            {word: "Cent", translation: "Cêt"},
-            {word: "Mille", translation: "Mil"},
-            {word: "Million", translation: "Milen"},
-            {word: "Milliard", translation: "Milan"},
             {word: "Infini", translation: "Atenolim"},
         ]
     },
