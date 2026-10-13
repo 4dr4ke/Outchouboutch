@@ -1,4 +1,15 @@
 const guides = {
+    suffixalDerivation: {
+        name: "Dérivation suffixale",
+        desc: "Oui, le nom fait peur",
+        content: [
+            {text: "La dérivation suffixale est un procédé de formation des mots qui consiste à placer un suffixe après un mot existant pour en modifier le sens ou changer sa classe grammaticale<br>Contrairement à la plupart des langues qui comportent plusieurs suffixes pour ce procédé, en Outchouboutch, il y en a qu'un : <mark><strong><i> ilto </mark></strong></i><br><br>Pour l'utiliser, rien de plus simple : placez le à la fin du mot que vous voulez transformer"},
+            {text: "Précision : si le mot à transformer finit par une voyelle, tronquez le suffixe en enlevant le 'i'"},
+            {example: "Musicilto <i>(musical) -> vient de musici (musique)</i>"},
+            {example: "Mastrolto <i>(folie) -> vient de fou (mastro)</i>"}
+        ]
+    },
+    
     pronunciations: {
         name: "Prononciations",
         desc: "Dans ce guide, les différentes prononciations exclusives de la langue sont expliquées !",
