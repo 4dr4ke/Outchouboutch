@@ -33,6 +33,7 @@ let vocabulary = [
             {word: "Comment", translation: "Comuo"},
             {word: "Champs", translation: "Api"},
             {word: "Commune", translation: "Colie"},
+            {word: "Cerveau", translation: "Lembo"},
             {word: "Chance", translation: "Cadur"},
             {word: "Crème", translation: "Creme"},
             {word: "Coiffeur", translation: "Chemess"},
@@ -79,7 +80,7 @@ let vocabulary = [
             {word: "Europe", translation: "Erurop"},
 
             {word: "Fois", translation: "Fo"},
-            {word: "Fou", translation: "Mastropietro"},
+            {word: "Fou", translation: "Mastro"},
             {word: "Faux", translation: "Falso"},
             {word: "Faim", translation: "Fam"},
             {word: "Fatigue", translation: "Fatio"},
