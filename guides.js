@@ -28,7 +28,8 @@ const guides = {
             {example: "Tuti te tob <i>(tous les jours) -> singulier = Tut te tob (tout le jour)</i> <br>Tei lavania mastropietro <i>(des personnes folles/des gens fous) -> singulier = Te lavania mastropietro (Une personne folle)</i>"},
             {text: "En revanche, vous remarquez qu'on ne le marque qu'une seule fois ! Et oui, en Outchouboutch, une fois que vous avez mis le premier mot au pluriel, pas besoin d'accorder les autres.<br>Cependant, attention à une chose ! Si vous utilisez un verbe dont le sujet est au pluriel, même si ce dernier a déjà été marqué, vous devez conjuguer le verbe au pluriel."},
             {example: "Ogutei nash ses belu <i>(ces clébards sont beaux) -> singulier = ogute nash sil belu (ce clébard est beau)</i>"},
-            {text: "Dans cet exemple, notez que le pluriel a déjà été marqué sur 'ogute', mais qu'on a tout de même conjugué le verbe 'sore' (être) au pluriel"}
+            {text: "Dans cet exemple, notez que le pluriel a déjà été marqué sur 'ogute', mais qu'on a tout de même conjugué le verbe 'sore' (être) au pluriel<br>Précision : si le mot à accorder au pluriel finit par un <mark><strong><i> i </mark></strong></i>, ajoutez <mark><strong><i> ri </mark></strong></i> à la fin"},
+            {example: "Aidiri <i>(chiens) -> singulier = aidi (chien)</i>
         ]
     },
 
