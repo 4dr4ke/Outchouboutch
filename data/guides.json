@@ -1,0 +1,146 @@
+{
+    "suffixalDerivation": {
+        "name": "Dérivation suffixale",
+        "desc": "Oui, le nom fait peur",
+        "content": [
+            {"text": "La dérivation suffixale est un procédé de formation des mots qui consiste à placer un suffixe après un mot existant pour en modifier le sens ou changer sa classe grammaticale<br>Contrairement à la plupart des langues qui comportent plusieurs suffixes pour ce procédé, en Outchouboutch, il y en a qu'un : <mark><strong><i> ilto </mark></strong></i><br><br>Pour l'utiliser, rien de plus simple : placez le à la fin du mot que vous voulez transformer"},
+            {"text": "Précision : si le mot à transformer finit par une voyelle, tronquez le suffixe en enlevant le 'i'"},
+            {"example": "Musicilto <i>(musical) -> vient de musici (musique)</i>"},
+            {"example": "Mastrolto <i>(folie) -> vient de fou (mastro)</i>"}
+        ]
+    },
+    
+    "pronunciations": {
+        "name": "Prononciations",
+        "desc": "Dans ce guide, les différentes prononciations exclusives de la langue sont expliquées !",
+        "content": [
+            {"text": "<strong>Digraphes :</strong><br>Quand la lettre C est suivie d'un H, cela se prononce [k]"},
+            {"example": "<strong>Che</strong> sto fatu? (que fais-tu ?)"},
+            {"text": "Quand la lettre C est suivie d'un E ou d'un I, cela se prononce [s]"},
+            {"text": "Quand la lettre Ç est suivie d'une autre voyelle, cela se prononce de la même manière."},
+            {"example": "Cecere! (au suivant !)"},
+            {"text": "Quand la lettre G est suivie d'un E ou d'un I, cela se prononce [ʒ]"},
+            {"example": "Su gentu (tu es gentil)"},
+            {"text": "<br><strong>Monographes :</strong>"},
+            {"text": "La lettre X se prononce [ʁ]"},
+            {"example": "On xao (une rose)"},
+            {"text": "La lettre Z se prononce [θ]"},
+            {"text": "La lettre K se prononce [ks]"},
+            {"text": "Lorsqu'une voyelle est écrite avec un trémat, prononcez la de manière ouverte. Sinon, fermée."},
+            {"example": "<strong>Proso</strong> fatce te (je peux faire ça)"}
+        ]
+    },
+
+    "plural": {
+        "name": "Pluriel",
+        "desc": "Apprenez à utiliser le pluriel :D",
+        "content": [
+            {"text": "Le pluriel est très simple ! Il est marqué par un <mark><strong><i> i </mark></strong></i> à la fin du mot que l'on veut mettre au pluriel"},
+            {"example": "Tuti te tob <i>(tous les jours) -> singulier = Tut te tob (tout le jour)</i> <br>Tei lavania mastropietro <i>(des personnes folles/des gens fous) -> singulier = Te lavania mastropietro (Une personne folle)</i>"},
+            {"text": "En revanche, vous remarquez qu'on ne le marque qu'une seule fois ! Et oui, en Outchouboutch, une fois que vous avez mis le premier mot au pluriel, pas besoin d'accorder les autres.<br>Cependant, attention à une chose ! Si vous utilisez un verbe dont le sujet est au pluriel, même si ce dernier a déjà été marqué, vous devez conjuguer le verbe au pluriel."},
+            {"example": "Ogutei nash ses belu <i>(ces clébards sont beaux) -> singulier = ogute nash sil belu (ce clébard est beau)</i>"},
+            {"text": "Dans cet exemple, notez que le pluriel a déjà été marqué sur 'ogute', mais qu'on a tout de même conjugué le verbe 'sore' (être) au pluriel<br>Précision : si le mot à accorder au pluriel finit par un <mark><strong><i> i </mark></strong></i>, ajoutez <mark><strong><i> ri </mark></strong></i> à la fin"},
+            {"example": "Aidiri <i>(chiens) -> singulier = aidi (chien)</i>"}
+        ]
+    },
+
+    "futur": {
+        "name": "Parler au futur",
+        "desc": "Maîtrisez le futur en quelques secondes de lectures !",
+        "content": [
+            {
+                "text":
+                    "Il y a deux façons de parler de quelque chose qui se passera dans le futur.<br>La première : mettre <i><mark><strong>go</mark></strong></i> avant le verbe."
+            },
+            {
+                "example": "Lo go mando <i>(je vais manger)</i>"
+            },
+            {
+                "text":
+                    "La deuxième : utiliser le mot <mark><strong><i>tas</mark></strong></i> avant le verbe."
+            },
+            {
+                "example": "Lo tas mando <i>(je vais manger)</i>"
+            },
+            {
+                "text":
+                    "La différence ? La première manière de parler du futur (<mark><strong><i>go</mark></strong></i>) s'emploie pour une décision spontanée ou une simple opinion, tandis que la deuxième (<i><mark><strong>tas</mark></strong></i>) sert pour quelque chose de planifié, de prévu, ou d'un fait visible dans le présent."
+            }
+        ]
+    },
+
+    "past": {
+        "name": "Parler au passé",
+        "desc": "N'ayez pas peur, le passé est simple à apprendre !",
+        "content": [
+            {
+                "text":
+                    "Pour parler au passé, il faut mettre le mot <mark><strong><i>mo</i></strong></mark> avant le verbe."
+            },
+            {
+                "example": "Lo mo mando <i>(j'ai mangé / j'avais mangé)</i>"
+            }
+        ]
+    },
+
+    "superlative": {
+        "name": "Le superlatif",
+        "desc": "Apprenez le superlatif comme il se doit, dans ce guide.",
+        "content": [
+            {
+                "text":
+                    "Pour utiliser le superlatif, il faut mettre le suffixe <mark><strong><i>en</mark></strong></i> sur un adjectif."
+            },
+            {
+                "example": "Te trosten <i>(le plus triste)</i>"
+            },
+            {
+                "text":
+                    "Il est aussi possible d'utiliser la forme suivante, qui donne le même résultat :"
+            },
+            {
+                "example": "Te lüss trost"
+            },
+            {
+                "text":
+                    "Vous pouvez également faire un mélange des deux formes afin d'exagérer ou de mettre davantage en valeur :"
+            },
+            {
+                "example": "Te lüss trosten"
+            }
+        ]
+    },
+
+    "gerund": {
+        "name": "Le gérondif / être en train de...",
+        "desc": "Vous dites plutôt gérondif ou participe présent ?",
+        "content": [
+            {
+                "text":
+                    "Pour dire que vous êtes en train d'effectuer une action ou utiliser le gérondif, placez le mot <i><mark><strong>sto</mark></strong></i> avant le verbe."
+            },
+            {
+                "example": "Lo sto dio <i>(Je suis en train de parler)</i>\nSil sto bruil! <i>(Il est en train de dessiner)</i>"
+            },
+            {
+                "text": "Note : le gérondif marche comme en Anglais."
+            }
+        ]
+    },
+
+    "doubleS": {
+        "name": "Règle du double S",
+        "desc": "J'avais pas trop d'idée de nom...",
+        "content": [
+            {
+                "text": "Lorsqu'un mot se termine par la sonorité [s], il est obligatoire de l'écrire avec un double S !"
+            },
+            {
+                "example": "Ogute sil portanu<mark><strong>ss</strong></mark> <i>(c'est important)</i>"
+            },
+            {
+                "text": "Sinon, suivez la règle par défaut : si le son [s] est suivi d'un E ou d'un I, écrivez le avec la lettre C<br>Si le son [s] est suivi de n'importe quelle voyelle n'étant pas un E ou un I, écrivez le avec la lettre ç"
+            }
+        ]
+    }
+}
