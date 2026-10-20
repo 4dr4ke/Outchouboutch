@@ -91,6 +91,9 @@ mark {
   cursor: text;
   text-align: center;
   outline: none;
+
+  position:sticky;
+  top:50px;
 }
 
 .search-box:focus {
