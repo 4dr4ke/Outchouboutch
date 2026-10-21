@@ -1,74 +1,4 @@
-const verbs = [
-    { verb: "sore", root: "s", translation: "être" },
-    { verb: "vore", root: "v", translation: "avoir" },
-    { verb: "diöb", root: "di", translation: "parler" },
-    { verb: "tumöb", root: "tum", translation: "permettre" },
-    { verb: "liöb", root: "li", translation: "aimer" },
-    { verb: "prose", root: "pros", translation: "pouvoir" },
-    { verb: "astoabre", root: "astoab", translation: "saluer" },
-    { verb: "bru", root: "bru", translation: "dessiner" },
-    { verb: "pare", root: "par", translation: "passer" },
-    { verb: "vovöb", root: "vov", translation: "vivre" },
-    { verb: "tasre", root: "tas", translation: "aller" },
-    
-    { verb: "radore", root: "rad", translation: "apprendre" },
-    { verb: "esöb", root: "es", translation: "espérer" },
-    { verb: "aköb", root: "ak", translation: "écrire" },
-    { verb: "compore", root: "comp", translation: "acheter" },
-    { verb: "radore", root: "rad", translation: "briller" },
-    { verb: "cipore", root: "cip", translation: "appeler" },
-    { verb: "copre", root: "copr", translation: "apprendre" },
-    { verb: "cipore", root: "cip", translation: "appeler" },
-    { verb: "coxive", root: "coxiv", translation: "arriver" },
-    { verb: "cipore", root: "cip", translation: "appeler" },
-    { verb: "cipore", root: "cip", translation: "appeler" },
-    { verb: "cotenere", root: "coten", translation: "attendre" },
-    { verb: "adecore", root: "adec", translation: "commencer" },
-    { verb: "adevore", root: "adev", translation: "connaître" },
-    
-    { verb: "fatiöb", root: "fati", translation: "fatiguer" },
-    { verb: "fatce", root: "fat", translation: "faire" },
-    { verb: "mande", root: "mand", translation: "manger" },
-    { verb: "sevre", root: "sev", translation: "savoir" },
-    { verb: "qere", root: "qer", translation: "chercher" },
-    { verb: "pesöb", root: "pes", translation: "penser" },
-    { verb: "velör", root: "vel", translation: "vouloir" },
-    { verb: "xeflör", root: "xefl", translation: "réfléchir" },
-    { verb: "regöb", root: "reg", translation: "regarder" },
-    { verb: "voatöb", root: "voat", translation: "voir" },
-    { verb: "conör", root: "con", translation: "comprendre" },
-    { verb: "rovosre", root: "rov", translation: "rêver" },
-    { verb: "reuosre", root: "reu", translation: "lire" },
-    { verb: "ecusöb", root: "ecus", translation: "écouter" },
-    { verb: "jotasre", root: "jot", translation: "jouer" },
-    { verb: "triaste", root: "trias", translation: "travailler" },
-    { verb: "lesaste", root: "lesa", translation: "dormir" },
-    { verb: "debetse", root: "deb", translation: "devoir" },
-    { verb: "vener", root: "ven", translation: "venir" },
-    { verb: "lapre", root: "lap", translation: "laisser" },
-    { verb: "aidöb", root: "aid", translation: "aider" },
-    { verb: "usore", root: "us", translation: "utiliser" },
-    { verb: "eplasöb", root: "eplas", translation: "expliquer" },
-    { verb: "repöb", root: "rep", translation: "répondre" },
-    { verb: "deshöb", root: "desh", translation: "descendre" },
-    { verb: "daröb", root: "dar", translation: "dire" },
-    { verb: "demasre", root: "dem", translation: "demander" },
-    { verb: "pre", root: "pr", translation: "prendre" },
-    { verb: "bexat", root: "bex", translation: "boire" },
-    { verb: "ixat", root: "ix", translation: "hydrater" },
-    { verb: "ibatser", root: "ibat", translation: "habiter" },
-    { verb: "tiure", root: "tiu", translation: "tuer" },
-    { verb: "abröb", root: "ab", translation: "arrêter" },
-    { verb: "glere", root: "gler", translation: "détester" },
-    { verb: "raplapla", root: "rapl", translation: "épuiser" },
-    { verb: "rupaser", root: "rup", translation: "respirer" },
-    { verb: "kapla", root: "kap", translation: "construire" },
-    { verb: "ferolöb", root: "fer", translation: "fermer" },
-    { verb: "upolöb", root: "up", translation: "ouvrir" },
-    { verb: "uxöb", root: "ux", translation: "oublier" },
-    { verb: "ptara", root: "ptar", translation: "agir" },
-    { verb: "ar", root: "ar", translation: "gratter" }
-];
+let verbs = [];
 
 const persons = [
     ["Lo", "o"],
@@ -77,7 +7,36 @@ const persons = [
     ["Löm", "öm"],
     ["Lut", "ut"],
     ["Les", "es"]
-]
+];
+
+const req = new XMLHttpRequest();
+req.open("GET", "/data/verbs.json");
+req.responseType = "json";
+req.onload = () => {
+
+    verbs = req.response;
+    
+    const container = document.getElementById("verbs-container");
+
+    for (let i = 0; i < verbs.length; i += 2) {
+
+        const box = document.createElement("div");
+        box.classList.add("verb-box");
+
+        // left verb
+        const leftVerb = createVerbColumn(verbs[i]);
+        box.appendChild(leftVerb);
+
+        // right verb
+        if (verbs[i + 1]) {
+            const rightVerb = createVerbColumn(verbs[i + 1]);
+            box.appendChild(rightVerb);
+        }
+
+        container.appendChild(box);
+    }
+}
+req.send();
 
 function conjugate(root) {
     return persons.map(([person, suffix]) => {
@@ -85,25 +44,7 @@ function conjugate(root) {
     });
 }
 
-const container = document.getElementById("verbs-container");
 
-for (let i = 0; i < verbs.length; i += 2) {
-
-    const box = document.createElement("div");
-    box.classList.add("verb-box");
-
-    // left verb
-    const leftVerb = createVerbColumn(verbs[i]);
-    box.appendChild(leftVerb);
-
-    // right verb
-    if (verbs[i + 1]) {
-        const rightVerb = createVerbColumn(verbs[i + 1]);
-        box.appendChild(rightVerb);
-    }
-
-    container.appendChild(box);
-}
 
 function createVerbColumn(verbEntry) {
     const column = document.createElement("div");
