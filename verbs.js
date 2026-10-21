@@ -15,25 +15,11 @@ req.responseType = "json";
 req.onload = () => {
 
     verbs = req.response;
-    
+
     const container = document.getElementById("verbs-container");
 
-    for (let i = 0; i < verbs.length; i += 2) {
-
-        const box = document.createElement("div");
-        box.classList.add("verb-box");
-
-        // left verb
-        const leftVerb = createVerbColumn(verbs[i]);
-        box.appendChild(leftVerb);
-
-        // right verb
-        if (verbs[i + 1]) {
-            const rightVerb = createVerbColumn(verbs[i + 1]);
-            box.appendChild(rightVerb);
-        }
-
-        container.appendChild(box);
+    for (let i = 0; i < verbs.length; i++) {
+        container.appendChild(createVerbColumn(verbs[i]));
     }
 }
 req.send();
@@ -47,8 +33,8 @@ function conjugate(root) {
 
 
 function createVerbColumn(verbEntry) {
-    const column = document.createElement("div");
-    column.classList.add("verb-column");
+    const box = document.createElement("div");
+    box.classList.add("verb-box");
 
     const verbTitle = document.createElement("p");
     verbTitle.classList.add("verb-title");
@@ -64,10 +50,10 @@ function createVerbColumn(verbEntry) {
         .map(line => `<p>${line}</p>`)
         .join("");
 
-    column.appendChild(verbTitle);
-    column.appendChild(conjugatedText);
+    box.appendChild(verbTitle);
+    box.appendChild(conjugatedText);
 
-    return column;
+    return box;
 }
 
 function capitalizeFirstLetter(val) {
@@ -75,7 +61,7 @@ function capitalizeFirstLetter(val) {
 }
 
 const searchBox = document.getElementById("verb-search-box");
-const verbTitles = document.getElementsByClassName("verb-title");
+
 
 let lastFound = null;
 
@@ -88,6 +74,8 @@ searchBox.addEventListener("keypress", (event) => {
     if (!searched) return;
 
     let found = null;
+
+    const verbTitles = document.getElementsByClassName("verb-title");
 
     for (const verbTitle of verbTitles) {
         if (format(removeParentheses(verbTitle.textContent)) === searched) {
@@ -124,13 +112,13 @@ searchBox.addEventListener("keypress", (event) => {
     });
 
     if (lastFound && lastFound !== found) {
-        const lastParent = lastFound.parentElement.parentElement;
+        const lastParent = lastFound.parentElement;
         lastParent.style.backgroundColor = "rgba(255, 255, 255, 0.08)";
     }
 
     lastFound = found;
 
-    const parent = found.parentElement.parentElement;
+    const parent = found.parentElement;
     parent.style.backgroundColor = "#252b2e";
     parent.style.color = "white";
 
