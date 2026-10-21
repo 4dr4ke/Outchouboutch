@@ -91,6 +91,9 @@ mark {
   cursor: text;
   text-align: center;
   outline: none;
+
+  position:sticky;
+  top:50px;
 }
 
 .search-box:focus {
@@ -327,18 +330,31 @@ mark {
 
   inset: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  transition: background 0.5s;
   background: rgba(0,0,0,0.7);
+
+  pointer-events: unset;
 }
 
 .hidden {
-  display: none;
+  background: rgba(0,0,0,0);
+  pointer-events: none;
+}
+
+.modal.hidden ~ .modal-content {
+  transform: translateY(40px);
+
+  pointer-events: none;
+
+  opacity:0%;
+
+  transition: transform 0.5s,
+              opacity 0.2s;
 }
 
 .modal-content {
+  position:fixed;
+
   width: 800px;
   max-height: 80vh;
 
@@ -350,6 +366,9 @@ mark {
 
   background: #222;
   color: #d0d0d0;
+
+  transition: transform 0.5s,
+              opacity 0.5s;
 }
 
 .guide-title {
@@ -362,28 +381,41 @@ mark {
 /* verbs */
 #verbs-container {
   width: 750px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
 }
 
-.verb-box {
+.verb-box2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 
-  background-color: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 10px;
-  padding: 15px;
+  
 }
 
-.verb-column {
+.verb-box {
+  background-color: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.15);
+  border-style: solid;
+  padding: 15px;
   text-align: center;
 }
 
-.verb-column:first-child {
-  border-right: 1px solid rgba(255,255,255,0.15);
+.verb-box:nth-child(2n+1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  border-width:1px 0px 1px 1px;
+}
+
+.verb-box:nth-child(2n) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  border-width:1px;
+  
+  border-left: 1px solid rgba(255,255,255,0.15);
 }
 
 .verb-title {
