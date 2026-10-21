@@ -330,18 +330,31 @@ mark {
 
   inset: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  transition: background 0.5s;
   background: rgba(0,0,0,0.7);
+
+  pointer-events: unset;
 }
 
 .hidden {
-  display: none;
+  background: rgba(0,0,0,0);
+  pointer-events: none;
+}
+
+.modal.hidden ~ .modal-content {
+  transform: translateY(40px);
+
+  pointer-events: none;
+
+  opacity:0%;
+
+  transition: transform 0.5s,
+              opacity 0.2s;
 }
 
 .modal-content {
+  position:fixed;
+
   width: 800px;
   max-height: 80vh;
 
@@ -353,6 +366,9 @@ mark {
 
   background: #222;
   color: #d0d0d0;
+
+  transition: transform 0.5s,
+              opacity 0.5s;
 }
 
 .guide-title {
